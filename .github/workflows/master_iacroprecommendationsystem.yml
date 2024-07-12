@@ -26,6 +26,9 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
+      - name: show tk version
+        run: |
+          python -c "import tkinter;print(tkinter.TkVersion)"
       
       - name: Install dependencies
         run: pip install -r requirements.txt
