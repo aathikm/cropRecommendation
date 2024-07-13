@@ -1,0 +1,32 @@
+[2024-07-13 18:30:49,162] 79 root - INFO - custom data converted as dataframe. And the data is,     N   P   K  temperature   humidity        ph    rainfall
+0  25  28  32    21.770462  80.319644  7.038096  226.655537
+[2024-07-13 18:30:49,162] 22 root - INFO - training pipeline started in prediction pipeline
+[2024-07-13 18:30:49,162] 23 root - INFO - training pipeline sucessfully ran
+[2024-07-13 18:30:49,166] 29 root - INFO - data:     N   P   K  temperature   humidity        ph    rainfall
+0  25  28  32    21.770462  80.319644  7.038096  226.655537
+[2024-07-13 18:30:49,308] 34 root - INFO - preprocessed value: [[-0.68463648 -0.78915532 -0.37635787 -0.69728372  0.43105495  0.72995959
+   2.40773426]]
+[2024-07-13 18:30:49,320] 38 root - INFO - encoded value df:           label  encoded_val
+0        grapes            7
+1        papaya           17
+2     mothbeans           13
+3    watermelon           21
+4        banana            1
+5         mango           12
+6   kidneybeans            9
+7        orange           16
+8   pomegranate           19
+9       coconut            4
+10     chickpea            3
+11        apple            0
+12       lentil           10
+13     mungbean           14
+14    blackgram            2
+15        maize           11
+16         jute            8
+17         rice           20
+18       coffee            5
+19   pigeonpeas           18
+20    muskmelon           15
+21       cotton            6
+[2024-07-13 18:30:49,320] 39 root - INFO - predicted value: [4.]

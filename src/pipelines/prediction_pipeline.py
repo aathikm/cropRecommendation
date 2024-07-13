@@ -37,8 +37,9 @@ class PredictionPipeline:
             label_encoded_df = pd.read_csv(encoded_df_path, encoding='unicode_escape')
             logging.info(f"encoded value df: {label_encoded_df}")
             logging.info(f"predicted value: {predicted_val}")
-            prediction_value = label_encoded_df[label_encoded_df['encoded_val'] == predicted_val[0]]["label"]
-            return prediction_value
+            prediction_value = label_encoded_df[label_encoded_df['encoded_val'] == predicted_val[0]] #["label"]
+            return(prediction_value["label"].values[0])
+            # return prediction_value["label"]
             
         except Exception as e:
             logging.info("Error occured in prediction pipeline")

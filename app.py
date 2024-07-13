@@ -37,4 +37,4 @@ def predict_datapoint():
 
 if __name__ == "__main__":
     print(f"Check the website using the following link: http://{host}:{port}")
-    app.run(host=host, port=port, debug=True)
+    app.run(host="0.0.0.0", port=8000, debug=True)
